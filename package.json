@@ -4,8 +4,9 @@
   "description": "This is a backend template for Express, Postgres, websockets and typescript",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node src/index.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/index",
+    "build": "tsc"
   },
   "author": "",
   "license": "ISC",
@@ -26,6 +27,9 @@
     "@types/pg": "^8.11.10",
     "@types/ws": "^8.5.12",
     "prettier": "^3.3.3"
+  },
+  "engines": {
+    "node": ">=18"
   }
 
 }
