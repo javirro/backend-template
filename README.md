@@ -23,7 +23,7 @@ npm start
 - __DB_PASSWORD__
 - __DB_DATABASE__
 - __DB_PORT__
-- __DATABASE_URL__: Only required if the connection with the DB is done using this configuration method.
+- __DATABASE_URL__: Only required if the connection with the DB is done using this configuration method. In that case, all previous params are not required.
 - __UI_URL__: Url for the frontend. Used for CORS. If it is not defined, the default value is `*`
 
 ## Template structure
@@ -61,3 +61,5 @@ The template also included a websocket simple server which allows handle client 
 ### Prettier
 
 The template has a basic prettier configuration to format code. This configuration could be easily changed in `.prettierc.json` file.
+
+https://prettier.io/
