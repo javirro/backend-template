@@ -2,6 +2,8 @@ This template provides a scaffold for backend projects built with Node.js and Ty
 
 ## Template basic requirements
 
+The node version required in order to run the project in __Node v18 or higher__.
+
 The project dependencies must be installed using `npm` instead of using `yarn` because project already has a package-lock.json.
 
 ```
