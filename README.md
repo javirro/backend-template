@@ -16,15 +16,15 @@ npm start
 
 ### Environment variables
 
-- LIMITER_TIME: time in miliseconds in which a max number of request are allowed.
-- LIMITER_MAX_REQUESTS: max request allowed in a time period.
-- DB_HOST
-- DB_USER
-- DB_PASSWORD
-- DB_DATABASE
-- DB_PORT
-- DATABASE_URL: Only required if the connection with the DB is done using this configuration method.
-- UI_URL: url for the frontend. Used for CORS. If it is not defined, the default value is `*`
+- __LIMITER_TIME__: time in miliseconds in which a max number of request are allowed.
+- __LIMITER_MAX_REQUESTS__: max request allowed in a time period.
+- __DB_HOST__
+- __DB_USER__
+- __DB_PASSWORD__
+- __DB_DATABASE__
+- __DB_PORT__
+- __DATABASE_URL__: Only required if the connection with the DB is done using this configuration method.
+- __UI_URL__: Url for the frontend. Used for CORS. If it is not defined, the default value is `*`
 
 ## Template structure
 
